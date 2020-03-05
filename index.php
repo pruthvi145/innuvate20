@@ -1,0 +1,12 @@
+<?php 
+    include_once("./header.php"); 
+    include_once("./includes/home/home_banner.php"); 
+    include_once("./includes/home/home_timer.php"); 
+    include_once("./includes/home/home_about.php"); 
+    include_once("./includes/home/home_team.php"); 
+    #include_once("./includes/schedule.php"); 
+    include_once("./includes/home/home_events.php"); 
+    include_once("./includes/sponsers.php"); 
+    include_once("./includes/map.php"); 
+    include_once("./footer.php"); 
+?>
