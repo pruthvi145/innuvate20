@@ -7,6 +7,7 @@
 
 <section class="main-content mt-5">
     <div class="auto-container">
+        <!-- Section title -->
         <div class="sec-title centered">
             <div class="title">Lorem ipsum dolor sit amet consectetur</div>
             <h2>About innuvate</h2>
@@ -92,6 +93,7 @@
         </div>
     </div>
 </section>
+
 <?php include_once("./includes/testimonials.php"); ?>
 
 <!--End Page Title-->
