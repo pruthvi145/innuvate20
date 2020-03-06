@@ -1,3 +1,5 @@
+<?php require_once("includes/functions.php");?>
+
 <!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -23,8 +25,7 @@
 </head>
 
 
-<body
-    class="<?php echo $_SERVER['REQUEST_URI'] == "/innuvate20/index.php" || $_SERVER['REQUEST_URI'] == "/innuvate20/"  ? "dark-page" : ""; ?>">
+<body class="<?php echo get_current_page() == "index.php"  ? "dark-page" : ""; ?>">
     <div class="page-wrapper">
         <!-- Preloader -->
         <div class="preloader"></div>
@@ -46,54 +47,13 @@
                             <div class="mobile-nav-toggler">
                                 <span class="icon flaticon-menu"></span>
                             </div>
+                            <?php require_once("includes/nav_menu.php"); ?>
 
-                            <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md">
-                                <div class="navbar-header">
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                        data-target="navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-                                        <li class="current">
-                                            <a href="index.php">Home</a>
-                                        </li>
-                                        <li>
-                                            <a href="about.php">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="team.php">Team</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery.php">Gallery</a>
-
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="">Events</a>
-                                            <ul>
-                                                <li><a href="">Non-tech Events</a></li>
-                                                <li>
-                                                    <a href="events.php?category=tech">Tech Events</a>
-                                                </li>
-                                                <li><a href="">Workshops</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                            <!-- Main Menu End-->
                             <!-- Outer Box -->
                             <div class="outer-box">
                                 <!-- Button Box -->
                                 <div class="btn-box">
-                                    <a href="" class="theme-btn btn-style-one">Register Now</a>
+                                    <a href="#events" class="theme-btn btn-style-one">Register Now</a>
                                 </div>
                             </div>
                         </div>

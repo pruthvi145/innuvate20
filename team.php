@@ -1,7 +1,8 @@
 <?php 
-    include_once("./header.php"); 
+    include_once("header.php"); 
     $PAGE_TITLE = "Team";
-    include_once("./includes/page_title.php"); 
+    include_once("includes/page_title.php"); 
+    require_once("data/team.php"); 
  ?>
 
 <!-- Speaker Section Five -->
@@ -14,64 +15,21 @@
             <div class="separator"></div>
         </div>
         <div class="row clearfix">
-
+            <?php foreach($team_members as $member): ?>
             <!-- Speaker Block -->
-            <div class="speaker-block-four col-lg-4 col-md-6 col-sm-12">
+            <div class="speaker-block-four col-lg-4 col-md-6 col-sm-12 mb-5">
                 <div class="inner-box">
                     <div class="image">
-                        <img src="images/resource/team-15.jpg" alt="" />
-                        <ul class="social-box">
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                            <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
+                        <img src="images/team/<?php echo $member->avatar; ?>" alt="" />
+
                     </div>
                     <div class="lower-content">
-                        <h3><a href="#">Robert Gates</a></h3>
-                        <div class="designation">Lead Speaker</div>
+                        <h3><a href=""><?php echo $member->name; ?></a></h3>
+                        <div class="designation"><?php echo $member->role; ?></div>
                     </div>
                 </div>
             </div>
-
-            <!-- Speaker Block -->
-            <div class="speaker-block-four col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box">
-                    <div class="image">
-                        <img src="images/resource/team-16.jpg" alt="" />
-                        <ul class="social-box">
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                            <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="#">Paul Wilson</a></h3>
-                        <div class="designation">Lead Speaker</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Speaker Block -->
-            <div class="speaker-block-four col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box">
-                    <div class="image">
-                        <img src="images/resource/team-17.jpg" alt="" />
-                        <ul class="social-box">
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                            <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                        </ul>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="#">George Tim</a></h3>
-                        <div class="designation">Lead Speaker</div>
-                    </div>
-                </div>
-            </div>
-
+            <?php endforeach; ?>
         </div>
 
     </div>

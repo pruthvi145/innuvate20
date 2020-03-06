@@ -1,37 +1,14 @@
-<?php 
-    include_once("./header.php"); 
-    
-    if(isset($_GET['cat_id'])){
-        $cat_id = $_GET['cat_id'];
-        $cat = get_category($_GET['cat_id']);
-        if(!$cat){
-            header("Location: index.php");
-        }
-        $children_cats = get_children_categories($_GET['cat_id']);
-        if(!$children_cats){ 
-            $children_cats[] = $cat;
-        }
-    }else{
-        $children_cats = get_parent_categories();
-        // $children_cats[] = $all_event_cat;
-    }
-
-    $PAGE_TITLE = $cat["title"] ?? "All Events";
-    include_once("./includes/page_title.php");
- ?>
-
 <!-- Blog Page Section -->
 <section class="blog-page-section">
     <div class="auto-container">
         <!-- Sec Title -->
         <?php foreach($children_cats as $child_cat): ?>
-        <?php if($events = get_events($child_cat['id'])): ?>
         <div class="sec-title centered">
             <h2><?php echo $child_cat['title']; ?></h2>
             <div class="separator"></div>
         </div>
         <div class="row clearfix">
-
+            <?php $events = get_events($child_cat['id']); ?>
             <?php foreach($events as $event): ?>
             <!-- News Block -->
             <div class="news-block col-lg-4 col-md-6 col-sm-12">
@@ -54,10 +31,8 @@
             </div>
             <?php endforeach; ?>
         </div>
-        <?php endif; ?>
         <?php endforeach; ?>
 
     </div>
 </section>
 <!-- End Events Section -->
-<?php include_once("./footer.php"); ?>

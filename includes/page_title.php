@@ -6,6 +6,12 @@
             <h1><?php echo $PAGE_TITLE; ?></h1>
             <ul class="page-breadcrumb">
                 <li><a href="index.php">Home</a></li>
+                <?php if($cat):
+                    $p_cat_id = $cat["parent_id"];
+                    if($p_cat = get_category($p_cat_id)):
+                ?>
+                <li><a href="events.php?cat_id=<?php echo $p_cat_id; ?>"><?php echo $p_cat["title"]; ?></a></li>
+                <?php endif;endif; ?>
                 <li><?php echo $PAGE_TITLE; ?></li>
             </ul>
         </div>

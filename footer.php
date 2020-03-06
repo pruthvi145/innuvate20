@@ -17,11 +17,11 @@
     <div class="footer-nav">
         <div class="auto-container">
             <ul>
-                <li><a href="">Technical Events</a></li>
-                <li><a href="">Non-Technical Events</a></li>
-                <li><a href="">Workshops</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Register Now</a></li>
+                <li><a href="events.php?cat_id=1">Technical Events</a></li>
+                <li><a href="events.php?cat_id=2">Non-Technical Events</a></li>
+                <li><a href="events.php?cat_id=3">Workshops</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="index.php#events">Register Now</a></li>
             </ul>
         </div>
     </div>

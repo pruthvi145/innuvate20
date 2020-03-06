@@ -31,61 +31,13 @@
                         Einim veniam quis nostrud exercitation ullamco laboris nisi ut
                         sed aliquip consequat. Duis aute irure ipsum dolorn
                         reprehenderit voluptate velit es sint occaecat cupidatat non
+                        proident.<br /><br />
+                        Einim veniam quis nostrud exercitation ullamco laboris nisi ut
+                        sed aliquip consequat. Duis aute irure ipsum dolorn
+                        reprehenderit voluptate velit es sint occaecat cupidatat non
                         proident.
                     </div>
-                    <div class="row clearfix">
-                        <!-- Feature Block Two -->
-                        <div class="feature-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-seminar"></span>
-                                </div>
-                                <h3><a href="speaker.html">Exclusive Keynotes</a></h3>
-                                <div class="feature-text">
-                                    Binim veniam quis nostrud ullamco ipsum laboris.
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Feature Block Two -->
-                        <div class="feature-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-elearning-2"></span>
-                                </div>
-                                <h3><a href="speaker.html">Off-Side Trips</a></h3>
-                                <div class="feature-text">
-                                    Binim veniam quis nostrud ullamco ipsum laboris.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Feature Block Two -->
-                        <div class="feature-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-conversation-1"></span>
-                                </div>
-                                <h3><a href="speaker.html">Brand Instructors</a></h3>
-                                <div class="feature-text">
-                                    Binim veniam quis nostrud ullamco ipsum laboris.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Feature Block Two -->
-                        <div class="feature-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-pound"></span>
-                                </div>
-                                <h3><a href="speaker.html">Learn Everything</a></h3>
-                                <div class="feature-text">
-                                    Binim veniam quis nostrud ullamco ipsum laboris.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -96,7 +48,7 @@
                         <img src="images/resource/video-img-2.jpg" alt="" />
                     </div>
                     <div class="video-outer">
-                        <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-boxed"><span
+                        <a href="https://www.youtube.com/watch?v=YHBAE7nc9lQ" class="lightbox-image video-boxed"><span
                                 class="flaticon-play-button"></span></a>
                     </div>
                 </div>

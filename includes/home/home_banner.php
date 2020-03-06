@@ -21,8 +21,9 @@
                     </div>
                     <!-- Buttons Box -->
                     <div class="buttons-box clearfix">
-                        <a href="" class="theme-btn btn-style-two">Register Now</a>
-                        <a href="" class="theme-btn btn-style-three"><span>Highlights</span></a>
+                        <a href="#events" class="theme-btn btn-style-two">Register Now</a>
+                        <a href="https://www.youtube.com/watch?v=YHBAE7nc9lQ"
+                            class="theme-btn btn-style-three lightbox-image video-boxed"><span>Highlights</span></a>
                     </div>
                 </div>
             </div>

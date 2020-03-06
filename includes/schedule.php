@@ -22,7 +22,7 @@
 
         <!-- Sec Title -->
         <div class="sec-title light centered">
-            <div class="title">Welcome to MiExpo Conference</div>
+            <div class="title">Lorem ipsum dolor sit amet.</div>
             <h2>Event Schedule</h2>
             <div class="separator"></div>
         </div>
